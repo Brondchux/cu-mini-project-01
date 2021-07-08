@@ -5,6 +5,57 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>My new contact website</title>
+		<link rel="stylesheet" href="assests/css/styles.css" />
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<h1>Client Website</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="https://github.com/brondchux" target="_blank">Github</a>
+					</li>
+					<li>
+						<a href="http://gospelchukwu.com/portfolio" target="_blank"
+							>Portfolio</a
+						>
+					</li>
+					<li><a href="#contact-panel">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="clearfix"></div>
+		</header>
+		<section id="contact-image">
+			<figure>
+				<img
+					src="assests/images/contact-photo.jpg"
+					alt="photo of client website contact details"
+				/>
+				<figcaption>
+					This image was added using the <code>figure tag</code>
+				</figcaption>
+			</figure>
+		</section>
+		<section id="contact-panel">
+			<h3>Let's get in touch!</h3>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" />
+
+				<label for="phone">Phone</label>
+				<input type="phone" id="phone" />
+
+				<label for="email">Email</label>
+				<input type="email" id="email" />
+
+				<label for="message">Message</label>
+				<textarea id="message" rows="5"></textarea>
+
+				<button>Send</button>
+			</form>
+		</section>
+		<footer>
+			<span>&copy; 2021 Gospel Chukwu</span>
+		</footer>
+	</body>
 </html>
