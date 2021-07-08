@@ -78,7 +78,7 @@ figure img {
 }
 
 form {
-	width: 400px;
+	width: 40%;
 	background-color: #cd9769;
 	margin: 0 auto;
 	padding: 20px;
@@ -102,7 +102,7 @@ form label {
 }
 
 form button {
-	width: 30%;
+	width: 40%;
 	display: block;
 	margin: auto;
 	padding: 10px;
